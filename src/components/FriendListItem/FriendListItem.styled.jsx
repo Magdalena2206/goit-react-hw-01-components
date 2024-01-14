@@ -7,7 +7,7 @@ export const FriendItem = styled.li`
   gap: 42px;
   margin: 0 auto;
   padding: ${props => props.theme.space[3]}px;
-
+  
   max-width: 100%;
   width: 360px;
 
