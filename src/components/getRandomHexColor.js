@@ -1,4 +1,3 @@
-export const getRandomHexColor = idx =>
-  `#${Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, 0)}`;
+export function getRandomHexColor() {
+    return `rgb(0, ${Math.floor(Math.random() * 156 + 100)}, 0)`
+}
